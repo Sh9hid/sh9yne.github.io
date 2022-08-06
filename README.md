@@ -12,38 +12,45 @@
  
 > Here's the code I was working on:
 
- > Texture loader to load an image
+ > Texture loader to load an image.
+ 
   const PlanetText = new THREE.TextureLoader('SEA.jpg');
- > Then we load a mesh 
-  Const PlanetText = new.THREE.Mesh(
-   > Then we give our sphere a basic sphere geometry and a material
+  
+ > Then we load a mesh.
+ 
+  const PlanetText = new.THREE.Mesh(
+  
+  > Then we give our sphere a basic sphere geometry and a material
+   
    new THREE.SphereGeometry(3, 3, 3),
    new THREE.MeshStandardMaterial ({map:PlanetText})
   >  map property on the material as the texture
    scene.add(Planet);
-  
-  > That's cool, but we need our closest satellite, the moon 
-> we'll add the texture as the moon jpg and add the map property
+    That's cool, but we need our closest satellite, the moon. We'll add the texture as the moonz jpg and add the map property to map 3d objects to our jpgs and later on add another texture to make it look more realistic.
   
   const moonText = new THREE.TextureLoader().load('moonz.jpg')
+  
+  
  > we also add a normal mapping texture that allows light to bounce off 
 > to create an illusion of craters and mountains
 
   const normalText = new THREE.TextureLoader().load('normalmap.jpg')
   const MOON = new THREE.Mesh(
+  
  > with a radius of three
-    new THREE.SphereGeometry(3 , 32, 32), 
-    new THREE.MeshStandardMaterial ( {
-      map : moonText,
-      normalMap: normalText
+
+new THREE.SphereGeometry(3 , 32, 32), 
+new THREE.MeshStandardMaterial ( {
+   map : moonText,
+   normalMap: normalText
      } )
   );
-   > scene.add(MOON);                                                                
+  scene.add(MOON);                                                                
                                     
 > Trying ThreeJs and there is the scene, camera, renderer and a lot more learnt including this page formatting. 
 > Don't how well, it went or supposed to go 🧑‍🎓
 
-# sh9yne.github.io
+## sh9yne.github.io
 
 >Made with 💜 by sh9 😸
 
