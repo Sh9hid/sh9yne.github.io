@@ -50,8 +50,6 @@ new THREE.MeshStandardMaterial ( {
 > Trying ThreeJs and there is the scene, camera, renderer and a lot more learnt including this page formatting. 
 > Don't how well, it went or supposed to go 🧑‍🎓
 
-## sh9yne.github.io
 
 >Made with 💜 by sh9 😸
 
-_This is a test! Don't believe everything you read on the internet_
