@@ -1,0 +1,12 @@
+#Open source projects that need to be checked rn
+- The Fuck
+- Partytown
+- SuperTokens
+- Hi Mom
+- Meilisearch and Zinc Search Engine
+- tRCP, tPRC, tRPC
+ - NocoDB
+ - Hoppscotch
+ - DanfoJS
+ - Mantine
+ - Amplication
